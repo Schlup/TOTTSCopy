@@ -18,7 +18,7 @@ const Courses: React.FC = () => {
 
     return (
         <section className="py-2">
-            <h1 className='text-4xl text-orange-600 font-bold flex justify-center pb-6'>Confira os nossos Cursos de Prateleira</h1>
+            <h1 className='text-4xl text-orange-600 text-center font-bold flex justify-center pb-6'>Confira os nossos Cursos de Prateleira</h1>
             <div className="container mx-auto px-4">
                 <div className="relative overflow-hidden">
                     <div className="flex animate-slide-courses">

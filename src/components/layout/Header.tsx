@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Button from '../common/Button';
 
 interface NavItem {
   label: string;
@@ -51,12 +52,9 @@ const Header: React.FC = () => {
           </nav>
 
           <div className="hidden md:flex items-center">
-            <a
-              href="#contato"
-              className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-orange-600 hover:bg-orange-500"
-            >
-              Agende uma Demonstração
-            </a>
+            <Button variant="demonstracao" size="md" onClick={() => console.log('Saiba mais clicado')}>
+              Agendar demonstração
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -97,9 +95,11 @@ const Header: React.FC = () => {
             <a
               href="#contato"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="inline-flex items-center justify-left px-4 py-2 border border-transparent rounded-3xl shadow-sm text-base font-medium text-white bg-orange-600 hover:bg-orange-500"
+              className="inline-flex items-center justify-left py-2"
             >
-              Agende uma Demonstração
+              <Button variant="demonstracao" size="md" onClick={() => console.log('Saiba mais clicado')}>
+                Agendar demonstração
+              </Button>
             </a>
           </div>
         </div>
