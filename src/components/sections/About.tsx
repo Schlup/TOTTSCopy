@@ -40,7 +40,7 @@ const About: React.FC = () => {
 
       <div className="container mx-auto pt-24 px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          
+
           <div className="p-6 px-12 text-center  flex flex-col items-center justify-center">
             <img loading='lazy' className='w-36' src="https://static.wixstatic.com/media/ca5485_f8c98c6429ee4b8892ccb319e3412db7~mv2.gif" alt="" />
             <div className="text-orange-600 text-4xl font-bold mb-4 align-middle">
